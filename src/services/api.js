@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api"; // Adjust the base URL as per your backend setup
+const BASE_URL = "https://bookmanagement-backend-alpha.vercel.app/api";
 
 export const getBooks = () => {
   return axios.get(`${BASE_URL}/books`);
